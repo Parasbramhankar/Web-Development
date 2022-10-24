@@ -1,0 +1,52 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+hr.solid {
+  border-top: 5px solid #bbb;
+  border-radius: 5px;
+}
+.border {
+  border: inset;
+}
+.blur {
+  opacity: 0.5;
+  margin: 0rem;
+}
+#myCarousel .list-inline {
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
+#myCarousel .carousel-indicators {
+  position: static;
+  left: initial;
+  width: initial;
+  margin-left: initial;
+}
+
+#myCarousel .carousel-indicators > li {
+  width: initial;
+  height: initial;
+  text-indent: initial;
+}
+#price{
+  align-content: center;
+}
+#myCarousel .carousel-indicators > li.active img {
+  opacity: 0.7;
+}
+/* .email-box {
+  height: 40px;
+  justify-content: center;
+  display: flex;
+  background: aliceblue;
+} */
+.stack-img{
+  width:100px;
+  height:100px
+}
+.team-pic{
+   height: 150px;
+   width: 150px;
+}
